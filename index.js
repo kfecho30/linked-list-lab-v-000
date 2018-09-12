@@ -7,6 +7,6 @@ function headNode(list, coll) {
 }
 
 function next(head, coll){
-  let nextNode = head[1]
+  let nextNode = head['next']
   return coll[nextNode]
 }
