@@ -39,9 +39,9 @@ function indexAt(node, coll, list){
 }
 
 function insertNodeAt(index, node, list, coll){
-
+  let prevNode = nodeAt(index-1, list, coll)
 }
 
 function deleteNodeAt(){
-  
+
 }
