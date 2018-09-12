@@ -27,3 +27,7 @@ function addressAt(index, list, coll) {
     return node.next
   }
 }
+
+function indexAt(){
+  
+}
