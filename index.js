@@ -24,6 +24,6 @@ function addressAt(index, list, coll) {
     return list
   } else {
     let node = nodeAt(index-1, list, coll)
-    return node[next]
+    return node.next
   }
 }
