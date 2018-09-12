@@ -18,3 +18,7 @@ function nodeAt(index, list, coll) {
   }
   return node
 }
+
+function addressAt(index, list, coll) {
+  nodeAt(index, list, coll)
+}
