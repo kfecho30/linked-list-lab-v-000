@@ -40,7 +40,15 @@ function indexAt(node, coll, list){
 
 function insertNodeAt(index, node, list, coll){
   let prevNode = nodeAt(index-1, list, coll)
+  let prevIndex = indexAt(prevNode, coll, list)
+  let prevAddress = addressAt(prevNode, list, coll)
   let nextNode = nodeAt(index, list, coll)
+  let nextIndex = indexAt(nextNode, coll, list) 
+  let nextAddress = addressAt(nextNode, list, coll)
+
+  prevNode.next = newAddress
+  let newNode = coll[newAddress]
+  newNode.next = nextAddress
 }
 
 function deleteNodeAt(){
