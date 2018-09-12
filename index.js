@@ -29,5 +29,6 @@ function addressAt(index, list, coll) {
 }
 
 function indexAt(node, coll, list){
-
+  let currentIndex = 0
+  while(headNode(list, coll) != node)
 }
