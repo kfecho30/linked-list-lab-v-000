@@ -20,6 +20,10 @@ function nodeAt(index, list, coll) {
 }
 
 function addressAt(index, list, coll) {
-  let keys = Object.keys(coll)
-  return keys[index]
+  if (index === 0) {
+    return list
+  } else {
+    let node = nodeAt(index-1, list, coll)
+    return node[next]
+  }
 }
