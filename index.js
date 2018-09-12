@@ -20,5 +20,6 @@ function nodeAt(index, list, coll) {
 }
 
 function addressAt(index, list, coll) {
-  return Object.keys(coll)
+  let keys = Object.keys(coll)
+  return keys[index]
 }
