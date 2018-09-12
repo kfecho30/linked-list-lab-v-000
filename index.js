@@ -32,7 +32,7 @@ function indexAt(node, coll, list){
   let currentIndex = 0
   let currentNode = headNode(list,coll)
   while(currentNode != node){
-    curentIndex++
+    currentIndex++
     currentNode = next(currentNode, coll)
   }
   return currentIndex
