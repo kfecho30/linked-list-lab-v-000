@@ -42,4 +42,6 @@ function insertNodeAt(index, node, list, coll){
 
 }
 
-function deleteNodeAt
+function deleteNodeAt(){
+  
+}
