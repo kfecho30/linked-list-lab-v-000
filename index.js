@@ -29,5 +29,5 @@ function addressAt(index, list, coll) {
 }
 
 function indexAt(node, coll, list){
-  
+
 }
