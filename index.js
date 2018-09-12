@@ -20,6 +20,6 @@ function nodeAt(index, list, coll) {
 }
 
 function addressAt(index, list, coll) {
-  let addresses = coll.keys()
+  let addresses = coll[keys]
   return addresses
 }
