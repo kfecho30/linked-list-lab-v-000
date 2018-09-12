@@ -30,5 +30,10 @@ function addressAt(index, list, coll) {
 
 function indexAt(node, coll, list){
   let currentIndex = 0
-  while(headNode(list, coll) != node)
+  let currentNode = headNode(list,coll)
+  while(currentNode != node){
+    curentIndex++
+    currentNode = next(currentNode, coll)
+  }
+  reutrn currentIndex
 }
