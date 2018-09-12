@@ -35,5 +35,5 @@ function indexAt(node, coll, list){
     curentIndex++
     currentNode = next(currentNode, coll)
   }
-  reutrn currentIndex
+  return currentIndex
 }
