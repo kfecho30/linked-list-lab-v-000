@@ -12,8 +12,9 @@ function next(head, coll){
 }
 
 function nodeAt(index, list, coll) {
-  let head = coll[list]
+  let node = coll[list]
   for (let i = 0; i < index; i++) {
-    next(head, coll)
+    node = next(node, coll)
   }
+  return node
 }
