@@ -37,3 +37,7 @@ function indexAt(node, coll, list){
   }
   return currentIndex
 }
+
+function insertNodeAt(){
+  
+}
