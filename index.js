@@ -51,6 +51,12 @@ function insertNodeAt(index, node, list, coll){
   newNode.next = nextAddress
 }
 
-function deleteNodeAt(){
-
+function deleteNodeAt(index, list, coll){
+  let previousNode
+  let currentNode = headNode(list, coll)
+  for(let i = 0; i < index; i++) {
+    previousNode = currentNode
+    currentNode = next(currentNode, coll)
+  }
+  previousNode.next = currentNode.next
 }
