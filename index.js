@@ -38,6 +38,6 @@ function indexAt(node, coll, list){
   return currentIndex
 }
 
-function insertNodeAt(){
-  
+function insertNodeAt(index, node, list, coll){
+
 }
