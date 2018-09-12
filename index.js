@@ -28,6 +28,6 @@ function addressAt(index, list, coll) {
   }
 }
 
-function indexAt(){
+function indexAt(node, coll, list){
   
 }
