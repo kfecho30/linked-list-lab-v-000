@@ -43,7 +43,7 @@ function insertNodeAt(index, node, list, coll){
   let prevIndex = indexAt(prevNode, coll, list)
   let prevAddress = addressAt(prevNode, list, coll)
   let nextNode = nodeAt(index, list, coll)
-  let nextIndex = indexAt(nextNode, coll, list) 
+  let nextIndex = indexAt(nextNode, coll, list)
   let nextAddress = addressAt(nextNode, list, coll)
 
   prevNode.next = newAddress
